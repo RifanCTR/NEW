@@ -3,36 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profil Biodata</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Profil Pengguna</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .profile-container {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .profile-container img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #ddd;
+            margin-bottom: 15px;
+        }
+
+        .profile-container h1 {
+            margin: 0;
+            font-size: 1.5em;
+            color: #333;
+        }
+
+        .profile-container p {
+            color: #666;
+            font-size: 1em;
+            margin: 10px 0;
+        }
+
+        .profile-container a {
+            text-decoration: none;
+            color: #007bff;
+        }
+
+        .profile-container a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
     <div class="profile-container">
-        <div class="profile-header">
-            <img src="profile.jpg" alt="Foto Profil" class="profile-pic">
-            <h1>Nama Anda</h1>
-            <p>Deskripsi singkat tentang Anda.</p>
-        </div>
-        <div class="profile-details">
-            <h2>Informasi Pribadi</h2>
-            <p><strong>Nama:</strong> Nama Anda</p>
-            <p><strong>Tanggal Lahir:</strong> Tanggal Lahir Anda</p>
-            <p><strong>Email:</strong> email@contoh.com</p>
-            <p><strong>Telepon:</strong> 081234567890</p>
-            
-            <h2>Alamat</h2>
-            <p>Alamat lengkap Anda di sini.</p>
-            
-            <h2>Pendidikan</h2>
-            <p><strong>Sekolah:</strong> Nama Sekolah</p>
-            <p><strong>Universitas:</strong> Nama Universitas</p>
-            <p><strong>Jurusan:</strong> Nama Jurusan</p>
-            
-            <h2>Pengalaman Kerja</h2>
-            <p><strong>Perusahaan:</strong> Nama Perusahaan</p>
-            <p><strong>Posisi:</strong> Nama Posisi</p>
-            <p><strong>Deskripsi:</strong> Deskripsi singkat tentang pekerjaan Anda.</p>
-        </div>
+        <img src="https://via.placeholder.com/100" alt="Foto Profil">
+        <h1>Nama Pengguna</h1>
+        <p>Deskripsi singkat tentang pengguna. Misalnya, hobi, pekerjaan, atau informasi lain yang relevan.</p>
+        <p>
+            <a href="https://twitter.com" target="_blank">Twitter</a> | 
+            <a href="https://facebook.com" target="_blank">Facebook</a> | 
+            <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+        </p>
     </div>
 </body>
 </html>
+
